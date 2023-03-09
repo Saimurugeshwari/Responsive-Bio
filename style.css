@@ -393,12 +393,11 @@ footer {
       display: none;
     }
     .section-five{
-      display: flex;
-      justify-content: flex-start;
+      display: block;
     }
     .mobile-text{
-      width:190%;
-
+      width: 100%;
+      height: 100%;
     }
     footer{
     display: none;
