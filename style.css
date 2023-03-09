@@ -213,9 +213,40 @@ footer {
   background-color: #080808;
   color: #ffffff;
   margin-top: 0px;
-  padding: 16px 120px;
+  padding: 16px 120px; 
+  
 }
+.section-three{
+  background-color:#E6E6E6;
+  display: flex;
+  align-items: center;
+  padding: 50px;
+  padding-bottom: 80px;
+}
+.frame1{
+  position: absolute;
+  width: 500px;
+  height: 400px;
+  left: 120px;
+  
+}
+.section-four{
+  display: flex;
+  align-items: center;
+  background-color:#E6E6E6;
+  padding-bottom: 80px;
 
+}
+.text{
+  position: relative;
+  width: 500px;
+  height: 340px;
+  left: 280px;
+  top:25px;
+}
+.section-five{
+  display: none;
+}
 .media-foot{
   display: none;
 }
@@ -236,6 +267,7 @@ footer {
   font-family: "Manrope";
   font-weight: 500;
   font-size: 24px;
+  color: #ffffff;
 }
 
 @media (max-width: 768px) {
@@ -353,8 +385,21 @@ footer {
       display: flex;
       gap:16px;
       align-items:center;
+    } 
+    .section-three{
+      display: none;
     }
+    .section-four{
+      display: none;
+    }
+    .section-five{
+      display: flex;
+      justify-content: flex-start;
+    }
+    .mobile-text{
+      width:190%;
 
+    }
     footer{
     display: none;
     }
